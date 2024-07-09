@@ -18,7 +18,7 @@ function Projects() {
         <Cards imgUrl={fire.src} title="Firefighting and Maze Solving Robot" desc="A multifunctional robot designed to autonomously navigate mazes and effectively combat fires, demonstrating sophisticated problem-solving and emergency response capabilities." />
         <Cards imgUrl={line.src} title="Gesture Controll Robot" desc="An innovative robot that responds to intuitive hand gestures, controlled seamlessly through a mobile application, showcasing the integration of modern robotics and user-friendly technology." />
         <Cards imgUrl={lineRobo.src} title="Line Follower" desc="A smart robot engineered to follow a pre-defined path or line, demonstrating precise movement and autonomousnavigation" />
-        <Cards imgUrl={Drone.src} title="Payload Drone" desc="A specialized drone designed to accurately deliver and drop payloads, ideal for logistics, disaster relief, and supply chain operations"/>
+        <Cards imgUrl={Drone.src} title="Payload Drop Algorithm" desc="A specialized drone designed to accurately deliver and drop payloads, ideal for logistics, disaster relief, and supply chain operations using computer vision moduling in python. A specialized payload drop algorithm"/>
 
     </div>
     </div>
