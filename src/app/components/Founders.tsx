@@ -11,15 +11,15 @@ function Founders() {
       <h2 className="text-3xl font-bold text-center mb-8 z-10">Meet Our Founders</h2>
       <div className="flex justify-center w-full flex-row flex-wrap gap-4 text-center">
         <div className="imageName mb-4 pb-6">
-                <Image src={Om} alt="" width={220} height={10} className='rounded-2xl'/>
-                <h2 className='mt-2 text-xl'>Kumar Om Suchita Khare</h2>
+                <Image src={Om} alt="curiosity" width={220} height={10} className='rounded-2xl'/>
+                <h2 className='mt-2 text-xl' >Kumar Om Suchita Khare</h2>
         </div>
         <div className="imageName">
-                <Image src={Chandrant} alt="" width={220} className='rounded-2xl'/>
+                <Image src={Chandrant} alt="curiosity" width={220} className='rounded-2xl'/>
                 <h2 className='mt-2 text-xl'>Kumar Chandrakant N. Raut</h2>
         </div>
         <div className="imageName">
-                <Image src={Khushi} alt="" width={220} className='rounded-2xl'/>
+                <Image src={Khushi} alt="curiosity" width={220} className='rounded-2xl'/>
                 <h2 className='mt-2 text-xl'>Kumari Khushi S. Rohra</h2>
         </div>
     </div>

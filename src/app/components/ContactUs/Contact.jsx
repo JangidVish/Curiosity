@@ -32,14 +32,14 @@ function Contact() {
     {!formSubmitted?(    
       <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4"> 
             <h1 className='sm:text-4xl text-3xl font-bold'>Contact Us</h1>
-            <div className="contact-form mt-4 p-8 flex flex-row justify-center w-full" id='Contact'>
+            <div className="contact-form mt-4 p-8 flex flex-row justify-center w-full " id='Contact'>
               <form action="" ref={form} onSubmit={sendEmail} className='flex flex-col gap-3 boder-2 border-white mt-4 sm:w-1/2'>
                 <label htmlFor="" className='sm:text-xl font-semibold'>Email</label>
-                <input type="email" name="user_email" id="" className='p-4' placeholder='abc@gmail.com' />
+                <input type="email" name="user_email" id="" className='p-4 focus:outline-none rounded-lg focus:outline-blue-400' placeholder='abc@gmail.com' />
                 <label htmlFor="" className='sm:text-xl font-semibold'>Name</label>
-                <input type="text" name="user_name" id="" className='p-4' placeholder='John'/>
+                <input type="text" name="user_name" id="" className='p-4 focus:outline-none rounded-lg focus:outline-blue-400' placeholder='John'/>
                 <label htmlFor="" className='sm:text-xl font-semibold'>Message</label>
-                <textarea name="message" id="" rows={5} placeholder='Enter message' className='p-2'></textarea>
+                <textarea name="message" id="" rows={5} placeholder='Enter message' className='p-2 focus:outline-none rounded-lg focus:outline-blue-400'></textarea>
                 <button type="submit" className='sm:text-xl p-4 border-1 rounded-xl mt-2 bg-blue-400 text-black font-bold'>Send</button>
               </form>
             </div>

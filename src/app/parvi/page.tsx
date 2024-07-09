@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const aboutUs = "At Pravi, we are dedicated to sparking the inquisitive spirit within every learner. Our mission is to transform passive content consumers into active creators and innovators through hands-on education in cutting-edge fields like IoT and robotics. By emphasizing intellectual property rights, we empower students to protect and monetize their innovative ideas, paving the way for a brighter, technology-driven future. Join us in fostering a generation of curious minds ready to shape the world."
 
-export const projects = [
+const projects = [
   {
     title: "Free public seminar",
     description: "Seminar on latest trends on robotics and drones",
@@ -42,7 +42,7 @@ export const projects = [
   },
 ]
 
-export default function Page() {
+const Parvi=()=> {
   return (
     <div>
       <Navbar />
@@ -54,3 +54,5 @@ export default function Page() {
     </div>
   )
 }
+
+export default Parvi
