@@ -12,6 +12,11 @@ const config: Config = {
   ],
   darkMode:"class",
   theme: {
+    fontFamily:{
+      mokoto: ["Mokoto","sans-serif"],
+      Bask: ["Bask","sans-serif"]
+
+    },
     
     extend: {
       animation: {

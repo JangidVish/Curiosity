@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:any) {
   return (
-    <div className="container md:w-full flex flex-col p-4 flex-wrap mt-4 rounded justify-around bg-gray-800 gap-3">
+    <>
+   
+    <div className="container md:w-3/4 flex flex-col p-4 flex-wrap mt-4 rounded justify-around bg-gray-800 gap-3">
         {/* <Image src={imageUrl} /> */}
         <div className="title-des">
             <h1 className='text-xl font-semibold'>{title}</h1>
@@ -30,6 +32,7 @@ function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:a
     </Link>
         </div>
     </div>
+    </>
   )
 }
 

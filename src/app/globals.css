@@ -37,3 +37,8 @@ body {
   font-family: Mokoto;
   src: url(../../public/Mokoto\ Demo.ttf);
 }
+
+@font-face {
+  font-family: Bask;
+  src: url(../../public/BaskervvilleSC-Regular.ttf);
+}
