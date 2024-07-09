@@ -6,7 +6,7 @@ function Cards({ imgUrl, title, desc }: any) {
   return (
     <div className="max-w-xs w-full group/card">
       <div
-        className={`cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4`}
+        className={`cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4 `}
         style={{ backgroundImage: `url(
           ${imgUrl}
           )`, backgroundSize: 'cover', backgroundPosition:'center' }}

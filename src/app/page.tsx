@@ -16,12 +16,12 @@ const aboutUs = "At Curiosity, we are dedicated to igniting the inquisitive spir
 const projects = [
   {
     title: "Pravi",
-    description: "A technology company that builds economic infrastructure for the internet.",
+    description: "Pravi, embodying the essence of mindfulness like a focused river carving through mountains, nurtures young minds under Curiosity's guidance. We channel curiosity into mindful innovation, teaching the importance of Intellectual Property Rights. Through our programs, we cultivate growth and development, empowering our champs to navigate the future with wisdom and creativity, transforming their ideas into lasting legacies.",
     link: "/parvi",
   },
   {
-    title: "Our Product Based Platform Coming Soon...",
-    description: "",
+    title: "Our Product Based Platform",
+    description: "Coming Soon...",
     link: "/",
   },
 ]
