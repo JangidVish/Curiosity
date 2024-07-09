@@ -20,7 +20,7 @@ const projects = [
     link: "/parvi",
   },
   {
-    title: "Coming Soon....",
+    title: "Our Product Based Platform Coming Soon...",
     description: "",
     link: "/",
   },

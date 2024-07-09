@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from '../../../public/Curiosity logo.png'
+import Logo from '../images/Curiosity logo 2.png'
 
 function Footer() {
   return (
@@ -13,6 +13,8 @@ function Footer() {
       Providing reliable tech since 2024
     </p>
     <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
+
+    <div className="info"><p className='mt-4  text-sm text-left'>*Some images are for representation purpose, actual product may vary</p></div>
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">

@@ -7,8 +7,8 @@ function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:a
   return (
     <>
    
-    <div className="container md:w-3/4 flex flex-col p-4 flex-wrap mt-4 rounded justify-around bg-gray-800 gap-3">
-        {/* <Image src={imageUrl} /> */}
+    <div className="container md:w-3/4 flex flex-col p-4 flex-wrap mt-4 rounded-2xl justify-around bg-gray-800 gap-3 w-3/4">
+         <Image src={imageUrl} alt='cardCatlog' className='rounded-2xl' width={320} height={180} />
         <div className="title-des">
             <h1 className='text-xl font-semibold'>{title}</h1>
             <p className='text-gray-300 text-md'>{desc}</p>
@@ -28,7 +28,7 @@ function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:a
         </div>
         <div className="btn mt-4">
         <Link href={pdfLink} rel="noopener noreferrer" target="_blank" className="Btn flex flex-row gap-2">
-      <IoMdDownload /> Download PDF
+      <IoMdDownload /> Download Brochure
     </Link>
         </div>
     </div>
