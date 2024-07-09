@@ -1,0 +1,41 @@
+{
+    "sections": [
+        {
+            "title": "About Us",
+            "description": "We are a leading provider of robotics solutions, inspiring innovation and creativity. Join us to explore the world of robotics and  technology.",
+            "overview": "Our mission is to foster a culture of innovation through robotics. We provide hands-on training and resources to students and enthusiasts.",
+            "kitMaterials": [
+                "Robotics Kits",
+                "Microcontrollers",
+                "Sensors",
+                "Motors and Wheels"
+            ],
+            "price": "$299",
+            "url": "https://www.robohawk.com/aboutus"
+        },
+        {
+            "title": "Services",
+            "description": "Our services include robotics workshops, training programs, and consulting. We cater to schools, colleges, and professional institutions.",
+            "overview": "We offer a range of services designed to enhance learning and development in the field of robotics. Our workshops and training programs are tailored to meet the needs of different age groups and skill levels.",
+            "kitMaterials": [
+                "Workshop Kits",
+                "Instructional Guides",
+                "Online Resources"
+            ],
+            "price": "$199",
+            "url": "https://www.robohawk.com/services"
+        },
+        {
+            "title": "Projects",
+            "description": "Explore our innovative projects created by students and professionals. From autonomous robots to advanced drones, see what we have achieved.",
+            "overview": "Our projects showcase the practical applications of robotics and technology. These projects are the result of collaboration, creativity, and hard work of our community members.",
+            "kitMaterials": [
+                "Project Documentation",
+                "Hardware Kits",
+                "Software Tools"
+            ],
+            "price": "Varies by project",
+            "url": "https://www.robohawk.com/projects"
+        }
+    ]
+}
