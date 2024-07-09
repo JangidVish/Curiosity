@@ -3,9 +3,9 @@ import Image from 'next/image'
 import {IoMdDownload} from 'react-icons/io'
 import Link from 'next/link'
 
-function CatlogCard({imageUrl, title, desc, overview, kit, price , pdfLink}:any) {
+function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:any) {
   return (
-    <div className="container md:w-full flex flex-col p-4 flex-wrap mt-4 rounded bg-gray-800 gap-3">
+    <div className="container md:w-full flex flex-col p-4 flex-wrap mt-4 rounded justify-around bg-gray-800 gap-3">
         {/* <Image src={imageUrl} /> */}
         <div className="title-des">
             <h1 className='text-xl font-semibold'>{title}</h1>
@@ -13,7 +13,7 @@ function CatlogCard({imageUrl, title, desc, overview, kit, price , pdfLink}:any)
         </div>
         <div className="overview-kit">
             <div className="kit">
-                <h3 className='text-lg'>Kit</h3>
+                <h3 className='text-lg'>{contentName}</h3>
                        <ul>
                        {kit.map((item:any, index:any) => (
                         <li key={index} className='text-gray-300 text-md'>{item}</li>

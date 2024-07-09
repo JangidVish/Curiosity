@@ -47,7 +47,7 @@ const Parvi=()=> {
     <div>
       <Navbar />
       <HeroSection title="Pravi" content="We don't teach, We Educate" />
-      <AboutUs description={aboutUs} url={ParviLogo} />
+      <AboutUs description={aboutUs} url={ParviLogo}  btnTitle="Learn More About Us" />
       <Services array={projects} Heading="What We Have For You" />
       <Catlog />
       <Footer />
