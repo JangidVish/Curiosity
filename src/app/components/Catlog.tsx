@@ -96,7 +96,7 @@ function Catlog() {
   return (
     <div className='w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4 p-4 overflow-x-hidden' id='catlog'>
         <h1 className='text-4xl text-center font-semibold'>Catalogues</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-around align-middle sm:ml-10 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-around align-middle md:ml-10 ">
         {sections.map(section=>(
                  <CatlogCard key ={section.price}
                  imageUrl={section.imageUrl} title={section.title} desc={section.description} contentName={section.contentName} kit={section.kitMaterials} pdfLink={section.url}

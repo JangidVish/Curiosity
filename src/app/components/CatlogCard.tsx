@@ -7,7 +7,7 @@ function CatlogCard({imageUrl, title, desc, contentName, kit, price , pdfLink}:a
   return (
     <>
    
-    <div className="container md:w-3/4 flex flex-col p-4 flex-wrap mt-4 rounded-2xl justify-around bg-gray-800 gap-3 sm:w-3/4">
+    <div className="container md:w-3/4 flex flex-col p-4 flex-wrap mt-4 rounded-2xl justify-around bg-gray-800 gap-3">
          <Image src={imageUrl} alt='cardCatlog' className='rounded-2xl' width={320} height={180} />
         <div className="title-des">
             <h1 className='text-xl font-semibold'>{title}</h1>
