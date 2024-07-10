@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import {IoMdDownload} from 'react-icons/io'
+
+
 import Link from 'next/link'
 
 function CatlogCard({imageUrl, title, desc, pdfLink}:any) {
@@ -20,8 +22,11 @@ function CatlogCard({imageUrl, title, desc, pdfLink}:any) {
     </Link>
         </div>
 )}
-    </div>
 
+<button className='p-2 rounded-lg bg-gray-700'>
+<Link href={"https://forms.gle/y7TXpJu5ZwnfJky7A"} rel="noopener noreferrer" target="_blank">Get A Quote</Link></button>
+
+    </div>
     </>
   )
 }

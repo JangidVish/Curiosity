@@ -52,7 +52,7 @@ const Home=()=> {
       )}
       {showContent && (
         <div>
-          <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+          <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] text-white">
             <Navbar />
             <HeroSection title="Curiosity" content="Your curiosity our solutions" />
             <AboutUs description={aboutUs} url={CuriosityLogo} />
