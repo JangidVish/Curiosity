@@ -6,7 +6,7 @@ import Om from '../images/Om.png'
 
 function Founders() {
   return (
-    <div className=" w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4" id="testimonals">
+    <div className=" w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4 mt-10" id="testimonals">
     <h1 className="text-4xl font-bold text-center mb-8 z-10">Meet Our Founders</h1>
       <div className="flex justify-center w-full flex-row flex-wrap gap-4 text-center">
         <div className="imageName mb-4 pb-6">

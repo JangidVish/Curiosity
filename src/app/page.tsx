@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/ContactUs/Contact";
 import CuriosityLogo from "../../public/Curiosity logo.png";
+import Feedback from './components/FeedbackCrausal'
 import Image from "next/image";
 import Founders from "./components/Founders";
 
@@ -59,6 +60,7 @@ const Home=()=> {
             <Services array={projects} Heading="Services" />
             <Projects />
             {/* <Testimonals /> */}
+            <Feedback />
             <Founders />
             <Contact />
             <Footer />
