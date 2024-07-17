@@ -10,8 +10,8 @@ import lineRobo from "../images/lineRobo.jpg"
 
 function Projects() {
   return (
-    <div className="w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4 mb-4 pt-10" id='Projects'>
-        <h1 className='text-center text-3xl font-semibold'>Projects</h1>
+    <div className=" w-full dark:bg-black dark:bg-grid-white/[0.15] relative flex flex-col items-center justify-center sm:overflow-hidden bg-black border-b-4 mt-10" id='Projects'>
+        <h1 className='text-center text-3xl font-semibold mb-8'>Projects</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-3 relative top-3 mb-8'>
         <Cards imgUrl={autodrone.src} title="Autonomus Drone" desc="A cutting-edge drone capable of self-navigation and executing tasks autonomously, ideal for various applications from surveillance to delivery." />
         <Cards imgUrl={gps.src} title="Digital GPS Speedometer" desc="An advanced digital speedometer that uses GPS technology to provide real-time and accurate speed readings for vehicles." />
