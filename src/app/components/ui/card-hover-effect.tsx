@@ -53,7 +53,7 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
-            {item.learnmore &&(<span className="mt-2 text-md underline underline-offset-4 text-blue-500 flex flex-row gap-2 items-center">Learn More<FaArrowRightLong className="animate-bounce"/></span>)}
+            {item.learnmore &&(<span className="mt-2 text-md underline underline-offset-4 text-blue-500 flex flex-row gap-2 items-center">Learn More<FaArrowRightLong className="animate-bounce2"/></span>)}
           </Card>
           
         </Link>

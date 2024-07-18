@@ -2,9 +2,9 @@ import React from 'react'
 import Cards from './Cards'
 import Image from 'next/image'
 
-import workshop1 from "../images/PCU Workshop.png"
-import workshop2 from "../images/School workshop.png"
-import workshop3 from "../images/our workshops (2).png"
+import workshop1 from "../images/pccoer1.jpg"
+import workshop2 from "../images/pccoer2.jpg"
+import workshop3 from "../images/pccoer3.jpg"
 import workshop4 from "../images/our workshops.png"
 import workshop5 from "../images/12.png"
 import workshop6 from "../images/13.png"
