@@ -22,6 +22,7 @@ const config: Config = {
       animation: {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        bounce: 'bounce 1s infinite'
       },
       keyframes: {
         move: {

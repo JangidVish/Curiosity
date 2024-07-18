@@ -7,6 +7,7 @@ import ParviLogo from '../../../public/Logo.png'
 import Projects from "../components/projects2"
 import Catlog from '../components/Catlog'
 import Footer from '../components/Footer'
+import Feedback from '../components/FeedbackCrausal'
 
 const aboutUs = "At Pravi, we are dedicated to sparking the inquisitive spirit within every learner. Our mission is to transform passive content consumers into active creators and innovators through hands-on education in cutting-edge fields like IoT and robotics. By emphasizing intellectual property rights, we empower students to protect and monetize their innovative ideas, paving the way for a brighter, technology-driven future. Join us in fostering a generation of curious minds ready to shape the world."
 
@@ -51,6 +52,7 @@ const Parvi=()=> {
       <AboutUs description={aboutUs} url={ParviLogo}  btnTitle="Learn More About Us" />
       <Services array={projects} Heading="What We Have For You" />
       <Catlog />
+      <Feedback />
       <Projects />
       <Footer />
     </div>
