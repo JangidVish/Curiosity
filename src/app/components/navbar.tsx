@@ -29,8 +29,8 @@ function Navbar({ className }: { className?: string }) {
       <HoveredLink>Pravi</HoveredLink>
       </Link></MenuItem>
       </Link>
-      <Link href={"#Projects"}>
-      <MenuItem setActive={setActive} active={active} item="Projects"></MenuItem>
+      <Link href={"#Feedback"}>
+      <MenuItem setActive={setActive} active={active} item="Testimonals"></MenuItem>
       </Link>
       <Link href={"#Contact"}>
       <MenuItem setActive={setActive} active={active} item="Contact"></MenuItem>

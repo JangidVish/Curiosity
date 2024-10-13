@@ -2,6 +2,7 @@ import { cn } from "@/app/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export const HoverEffect = ({
@@ -11,6 +12,7 @@ export const HoverEffect = ({
   items: {
     title: string;
     description: string;
+    img: string;
     link: string;
     learnmore: boolean;
   }[];
@@ -52,6 +54,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
+            {item.img && <Image src={item.img} alt="Pravi Logo" width={1000} height={1000} className="w-auto"/>}
             <CardDescription>{item.description}</CardDescription>
             {item.learnmore &&(<span className="mt-2 text-md underline underline-offset-4 text-blue-500 flex flex-row gap-2 items-center">Learn More<FaArrowRightLong className="animate-bounce2"/></span>)}
           </Card>

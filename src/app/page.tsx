@@ -10,6 +10,7 @@ import Contact from "./components/ContactUs/Contact";
 import CuriosityLogo from "../../public/Curiosity logo.png";
 import Feedback from './components/FeedbackCrausal'
 import Image from "next/image";
+import Pravi from "../../public/Logo.png";
 import Founders from "./components/Founders";
 
 const aboutUs = "At Curiosity, we are dedicated to igniting the inquisitive spirit within every learner and innovator. As a parent company to various educational and product-based platforms, our mission is to be a catalyst for shaping the future of our tech-savvy nation while staying rooted in our rich cultural heritage. We believe that advancements in technology and our ancient culture can go hand in hand, creating a unique blend of innovation and tradition. Join us as we foster a generation of thinkers and creators, committed to making a meaningful impact on the world."
@@ -19,7 +20,8 @@ const projects = [
     title: "Pravi",
     description: "Pravi, embodying the essence of mindfulness like a focused river carving through mountains, nurtures young minds under Curiosity's guidance. We channel curiosity into mindful innovation, teaching the importance of Intellectual Property Rights. Through our programs, we cultivate growth and development, empowering our champs to navigate the future with wisdom and creativity, transforming their ideas into lasting legacies.",
     link: "/parvi",
-    learnmore: true
+    learnmore: true,
+    img: "/Logo.png"
   },
   {
     title: "Our Product Based Platform",
@@ -59,7 +61,7 @@ const Home=()=> {
             <HeroSection title="Curiosity" content="Your curiosity our solutions" />
             <AboutUs description={aboutUs} url={CuriosityLogo} />
             <Services array={projects} Heading="Services" />
-            <Projects />
+            {/* <Projects /> */}
             {/* <Testimonals /> */}
             <Feedback />
             <Founders />
