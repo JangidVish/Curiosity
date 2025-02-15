@@ -33,6 +33,10 @@ const projects = [
 const Home=()=> {
   const [showStarterPage, setShowStarterPage] = useState(true);
   const [showContent, setShowContent] = useState(false);
+  const [showPopup, setShowPopup] = useState(true);
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   useEffect(() => {
     const starterPageTimeout = setTimeout(() => {
@@ -54,7 +58,19 @@ const Home=()=> {
           </div>
         </div>
       )}
-      {showContent && (
+      {
+        showPopup && (
+          <div className="popup-overlay w-full min-h-screen bg-slate-400 z-50 absolute overflow-y-hidden overflow-x-hidden">
+            <div className="popup-content w-full min-h-screen flex align-middle justify-center content-center items-center">
+              <div className="close-icon text-3xl text-red-700 font-bold right-10 md:right-28 md:top-10 top-20 absolute cursor-pointer" onClick={closePopup}>X</div>
+            
+                <Image src="/popUpCuriosity.jpg" alt="" width={5000} height={100} className="md:w-3/4 h-fit rounded-md mb-10"/>
+          
+            </div>
+          </div>
+        )
+      }
+      {!showPopup &&  (
         <div>
           <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] text-white">
             <Navbar />
